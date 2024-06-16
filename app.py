@@ -38,7 +38,7 @@ st.title("Détection de Spam dans les SMS")
 st.markdown("[Josué AFOUDA](https://www.linkedin.com/in/josu%C3%A9-afouda)")
 
 # Interface utilisateur pour la prédiction
-user_input = st.text_area("Entrez votre SMS ici :", height=50)
+user_input = st.text_area("Entrez votre SMS (en anglais) ici :", height=50)
 
 if st.button("Prédire"):
     if user_input.strip() == "":
